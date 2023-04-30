@@ -52,9 +52,9 @@
 // }
 // http.createServer(dataControl).listen(4500);
 
-// http.createServer((req,resp)=>{
+http.createServer((req,resp)=>{
 
-//        req.write("<h1>I am, BHushan</h1>")
-//          resp.end();
-//      }).listen(4500);
+       req.write("<h1>I am, BHushan</h1>")
+         resp.end();
+     }).listen(4500);
 
